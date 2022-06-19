@@ -1,0 +1,13 @@
+created: 20220411023446513
+creator: chris
+key: ((omni-indent))
+modified: 20220619021632890
+modifier: chris
+omni-shortcut: yep
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/can/omni/kbshortcuts/omni-indent
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/can/omni/shortcut-actions
+
+<<omni-indent>>

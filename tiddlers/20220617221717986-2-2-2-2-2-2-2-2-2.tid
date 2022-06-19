@@ -1,0 +1,9 @@
+created: 20220617224837920
+modified: 20220619021310951
+omniparent: Dockerfile
+tags: [[$:/state/can/omni/editstate/20220617224820504-DIY code-server Dockerfile]]
+title: 20220617221717986-2-2-2-2-2-2-2-2-2
+type: text/vnd.tiddlywiki
+
+# Default port is 8080? 
+ENTRYPOINT ["/entrypoint.sh"]

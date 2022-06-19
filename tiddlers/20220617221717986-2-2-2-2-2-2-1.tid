@@ -1,0 +1,9 @@
+annot: I think if we're using bash and the shell script starts with a hash-bang, we don't need to do this. But just make sure your entrypoint is executable.
+created: 20220617222940844
+modified: 20220619021254865
+omniparent: Dockerfile
+tags: [[$:/state/can/omni/editstate/20220617222936296-DIY code-server Dockerfile]]
+title: 20220617221717986-2-2-2-2-2-2-1
+type: text/vnd.tiddlywiki
+
+RUN chmod +x /entrypoint.sh

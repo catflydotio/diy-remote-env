@@ -1,0 +1,7 @@
+created: 20220619005817866
+modified: 20220619005910451
+tags: $:/tags/PageControls
+title: Button to suspend omni nav shortcuts
+type: text/vnd.tiddlywiki
+
+<$button actions=<<omni-suspend-nav-shortcuts>>>Esc</$button>

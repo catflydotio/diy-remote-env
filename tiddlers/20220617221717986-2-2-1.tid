@@ -1,0 +1,10 @@
+annot: I'm not sure I need to do this
+created: 20220617222436663
+modified: 20220619021150284
+omniparent: Dockerfile
+tags: [[$:/state/can/omni/editstate/20220617222407565-DIY code-server Dockerfile]]
+title: 20220617221717986-2-2-1
+type: text/vnd.tiddlywiki
+
+# prepare build dir
+WORKDIR /app

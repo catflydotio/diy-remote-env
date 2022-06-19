@@ -1,0 +1,15 @@
+created: 20220411023446513
+creator: chris
+key: ((omni-kb-add))
+modified: 20220619021632890
+modifier: chris
+omni-shortcut: yep
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/can/omni/kbshortcuts/omni-kb-add
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/can/omni/action-macros
+\import $:/plugins/can/omni/shortcut-actions
+\import $:/plugins/can/omni/component-state-defs
+
+<<omni-kb-addtiddler>>

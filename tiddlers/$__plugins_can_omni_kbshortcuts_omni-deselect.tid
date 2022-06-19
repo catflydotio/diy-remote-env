@@ -1,0 +1,13 @@
+created: 20220411023446513
+creator: chris
+key: ((omni-deselect))
+modified: 20220619021632890
+modifier: chris
+omni-shortcut: yep
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/can/omni/kbshortcuts/omni-deselect
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/can/omni/action-macros
+
+<<omni-deselect-node>>

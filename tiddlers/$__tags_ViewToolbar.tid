@@ -1,0 +1,5 @@
+created: 20211105180042179
+list: $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info [[Block management button]] $:/core/ui/Buttons/delete $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar $:/plugins/can/omni/addrefsrc.tid $:/plugins/can/omni/buttons/omnimodebar
+modified: 20211106003314288
+title: $:/tags/ViewToolbar
+type: text/vnd.tiddlywiki

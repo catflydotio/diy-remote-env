@@ -1,0 +1,13 @@
+created: 20220513000723895
+modified: 20220513001042196
+title: 20220513000723895
+type: text/vnd.tiddlywiki
+
+Right now, it says 
+
+```
+Install Flyctl - you'll need it.
+Create an account with flyctl auth signup or login with flyctl auth login.
+Run flyctl launch - create, configure, and deploy a new application
+```
+and then has a list of languages/frameworks you can deploy. It's not very clear in what way we support them; the  links are external. The sidebar does have language guides.

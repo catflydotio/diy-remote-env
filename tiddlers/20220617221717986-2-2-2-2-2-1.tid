@@ -1,0 +1,9 @@
+annot: We want to run more than one process in the VM, so wrap our commands in a script, `entrypoint.sh`
+created: 20220617222936295
+modified: 20220619021225784
+omniparent: Dockerfile
+tags: [[$:/state/can/omni/editstate/20220617222553049-DIY code-server Dockerfile]]
+title: 20220617221717986-2-2-2-2-2-1
+type: text/vnd.tiddlywiki
+
+COPY entrypoint.sh /entrypoint.sh

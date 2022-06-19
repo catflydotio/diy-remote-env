@@ -1,0 +1,13 @@
+created: 20220411023446514
+creator: chris
+key: ((omni-nav-dive))
+modified: 20220619021632891
+modifier: chris
+omni-shortcut: yep
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/can/omni/kbshortcuts/omni-nav-dive
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/can/omni/shortcut-actions
+
+<<omni-nav-dive>>
