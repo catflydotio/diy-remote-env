@@ -1,10 +1,10 @@
 created: 20220411023446513
 creator: chris
 key: ((omni-kb-add))
-modified: 20220620143422276
+modified: 20220620152159998
 modifier: chris
 omni-shortcut: yep
-tags: 
+tags: $:/tags/KeyboardShortcut
 title: $:/plugins/can/omni/kbshortcuts/omni-kb-add
 type: text/vnd.tiddlywiki
 
