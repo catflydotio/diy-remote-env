@@ -1,0 +1,8 @@
+annot: I want to run more than one process in the VM, so wrap the commands in a script, `entrypoint.sh`. We'll look at the script in a sec.
+created: 20220619180504912
+modified: 20220620143337211
+tags: 
+title: 20220619180504910-1
+type: text/vnd.tiddlywiki
+
+COPY entrypoint.sh /entrypoint.sh

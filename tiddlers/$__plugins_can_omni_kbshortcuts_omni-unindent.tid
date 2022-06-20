@@ -1,10 +1,10 @@
 created: 20220411023446514
 creator: chris
 key: ((omni-unindent))
-modified: 20220619021632891
+modified: 20220620143422277
 modifier: chris
 omni-shortcut: yep
-tags: $:/tags/KeyboardShortcut
+tags: 
 title: $:/plugins/can/omni/kbshortcuts/omni-unindent
 type: text/vnd.tiddlywiki
 

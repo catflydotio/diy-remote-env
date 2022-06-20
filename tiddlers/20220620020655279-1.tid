@@ -1,0 +1,8 @@
+annot: We'll set the IDLE_TIME_TO_SHUTDOWN environment variable when we run the machine. In case we don't, TIME_TO_SHUTDOWN will default to 120 seconds.
+created: 20220620020655281
+modified: 20220620023419511
+tags: 
+title: 20220620020655279-1
+type: text/vnd.tiddlywiki
+
+TIME_TO_SHUTDOWN="${IDLE_TIME_TO_SHUTDOWN:-120}"

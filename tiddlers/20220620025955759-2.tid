@@ -1,0 +1,8 @@
+annot: Run the machine in the `yyz` region (this is the region our storage volume exists in).
+created: 20220620025955762
+modified: 20220620030018999
+tags: 
+title: 20220620025955759-2
+type: text/vnd.tiddlywiki
+
+  --region yyz \

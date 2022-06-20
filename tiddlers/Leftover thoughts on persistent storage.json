@@ -2,11 +2,12 @@
     {
         "created": "20220618144808729",
         "text": "What happens when we install new dependencies for a project? Those disappear when the machine shuts down. Just have to refresh the image with any desired new changes, unless we install stuff at a different path (on the persistent vol)\n\n\n* Can specify locations for some config files in the apps that use them (and paths in bash), so some customizations can be kept on the persistent disk\n* theme prefs\n* things it’s not the end of the world to lose\n(On that topic, backups and remote code repo)\n\n* need to store the project somewhere and think about data resilience (do backups; but GitHub/other hosted Git might be good enough for the scope here)\n\t•\tneed to store files between commits — don't want to lose work if VM shuts down (code-server does seem to auto-save)",
-        "title": "Persistent storage",
-        "modified": "20220619020445461",
+        "title": "Leftover thoughts on persistent storage",
+        "modified": "20220620145012614",
         "type": "text/vnd.tiddlywiki",
         "omni-list": "20220618145023377 20220618145437375 20220618145102341 20220619020006198",
-        "caption": " Persistent storage",
-        "omnibus-mode": "toc"
+        "caption": " Leftover thoughts on persistent storage",
+        "omnibus-mode": "toc",
+        "list": "20220618145437375 20220618145102341"
     }
 ]

@@ -1,5 +1,5 @@
-created: 20220619004830801
-list: Dockerfile Outline Secrets [[Persistent storage]] 20220618145437375 [[The base dev environment]] Intro [[Connecting to a remote machine]]
-modified: 20220619021229563
+created: 20220619164407299
+list: Intro [[Connecting to a remote machine]] [[The base dev environment]] [[The plan]] [[Setting up the Fly Machines App]] Secrets [[The Dockerfile]] [[The entrypoint script]] [[Building the image]] [[Running the machine]] [[Turning it off and on again]] [[Leftover thoughts on persistent storage]]
+modified: 20220620144450538
 title: $:/StoryList
 type: text/vnd.tiddlywiki

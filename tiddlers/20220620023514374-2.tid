@@ -1,0 +1,8 @@
+annot: Used in the entrypoint shell script to tell the proxy how long to stay awake without any new http requests.
+created: 20220620023514377
+modified: 20220620023640761
+tags: 
+title: 20220620023514374-2
+type: text/vnd.tiddlywiki
+
+ --env IDLE_TIME_TO_SHUTDOWN=600 \

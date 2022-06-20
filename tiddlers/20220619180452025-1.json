@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220619180452027",
+        "modified": "20220620143116834",
+        "title": "20220619180452025-1",
+        "text": "\nRUN apt-get update -y \\\n    && apt-get install curl unzip git -y \\\n    && curl -fsSL https://code-server.dev/install.sh | sh\n",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "This is a Debian-based image, so I can use `apt-get` to install anything additional that I need.\n\n"
+    }
+]

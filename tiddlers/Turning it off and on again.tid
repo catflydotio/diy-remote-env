@@ -1,0 +1,12 @@
+caption: Turning if off and on again
+created: 20220619031815938
+modified: 20220619032156151
+title: Turning it off and on again
+type: text/vnd.tiddlywiki
+
+If you're doing all this to have access to moar cores and massive RAM from some cloud service, you don't want to be renting that hardware 24/7.
+
+	*	way to turn it off deliberately; timeout in case you forget.
+	*	can logout of code-server; can stop the VM from the outside. Better to have a way to exit from the inside (which tired-proxy does now, but. only after the timeout).
+	*	can run code-server as a background process and use a proxy that shuts down the processes when there's been no http request for a given time
+	*	can we also shut down when the user logs out of code-server?

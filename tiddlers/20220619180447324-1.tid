@@ -1,0 +1,8 @@
+annot: I choose a smallish image that'll have most of the tools I want installed. Let's say I'm going to work on a Node.js app.
+created: 20220619180447326
+modified: 20220619180648167
+tags: 
+title: 20220619180447324-1
+type: text/vnd.tiddlywiki
+
+FROM node:17.9.1-bullseye-slim

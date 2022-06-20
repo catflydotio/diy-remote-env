@@ -1,10 +1,10 @@
 created: 20220411023446513
 creator: chris
 key: ((omni-deselect))
-modified: 20220619021632890
+modified: 20220620143422276
 modifier: chris
 omni-shortcut: yep
-tags: $:/tags/KeyboardShortcut
+tags: 
 title: $:/plugins/can/omni/kbshortcuts/omni-deselect
 type: text/vnd.tiddlywiki
 

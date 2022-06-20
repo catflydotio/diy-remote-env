@@ -1,0 +1,8 @@
+annot: Gets the tired proxy code from its public docker image.
+created: 20220619180509545
+modified: 20220620143317671
+tags: 
+title: 20220619180509543-1
+type: text/vnd.tiddlywiki
+
+COPY --from=lubien/tired-proxy:2 /tired-proxy /tired-proxy

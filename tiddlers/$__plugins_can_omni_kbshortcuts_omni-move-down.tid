@@ -1,10 +1,10 @@
 created: 20220411023446513
 creator: chris
 key: ((omni-move-down))
-modified: 20220619021632891
+modified: 20220620143422276
 modifier: chris
 omni-shortcut: yep
-tags: $:/tags/KeyboardShortcut
+tags: 
 title: $:/plugins/can/omni/kbshortcuts/omni-move-down
 type: text/vnd.tiddlywiki
 

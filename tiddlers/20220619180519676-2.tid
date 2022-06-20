@@ -1,0 +1,9 @@
+annot: The VM will run this when it starts up.
+created: 20220619180519679
+modified: 20220620143434356
+tags: 
+title: 20220619180519676-2
+type: text/vnd.tiddlywiki
+
+
+ENTRYPOINT ["/entrypoint.sh"]

@@ -1,0 +1,10 @@
+[
+    {
+        "created": "20220619181100482",
+        "modified": "20220620143110284",
+        "title": "20220619181100482",
+        "text": "$ fly secrets set -a my-remote-env PASSWORD=<my-password> FLY_API_TOKEN=$(fly auth token)",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "Let's skip ahead a little bit. There are going to be environment variables I'll want inside my VM. I'm using `fly secrets` to get them there.\n\ncode-server will set its own password on installation if I don't set the PASSWORD environment variable. That's ok; I can ssh into the VM later and extract it from a config file; but it's easier to set it ahead."
+    }
+]

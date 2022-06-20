@@ -1,0 +1,7 @@
+created: 20220620145045708
+modified: 20220620145045708
+tags: $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/title
+type: text/vnd.tiddlywiki
+
+{{||$:/plugins/can/onetopic/template-title}}

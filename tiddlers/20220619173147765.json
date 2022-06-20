@@ -1,0 +1,10 @@
+[
+    {
+        "created": "20220619173147765",
+        "modified": "20220619173947521",
+        "title": "20220619173147765",
+        "text": "$ fly volumes create -a my-remote-env storage --size 2\n? Select region:  [Use arrows to move, type to filter]\n  Hong Kong, Hong Kong (hkg)\n  Ashburn, Virginia (US) (iad)\n  Los Angeles, California (US) (lax)\n  London, United Kingdom (lhr)\n  Chennai (Madras), India (maa)\n  Madrid, Spain (mad)\n  Miami, Florida (US) (mia)\n  Tokyo, Japan (nrt)\n  Chicago, Illinois (US) (ord)\n  Santiago, Chile (scl)\n  Seattle, Washington (US) (sea)\n  Singapore (sin)\n  San Jose, California (US) (sjc)\n  Sydney, Australia (syd)\n> Toronto, Canada (yyz)",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "[Create a new volume](https://fly.io/docs/flyctl/volumes-create/) called `storage` tied to this app, with size 2GB. I may be building 1GB Docker images on this machine...\n\nI choose a region nearish to me to put this volume. My VM is going to mount this volume, so it will be tied to the hardware this volume is on."
+    }
+]

@@ -1,0 +1,8 @@
+annot: Map internal port 8080 (our code-server, via the tired proxy) via the Fly.io https port 443, so we can access it at https:/my-remote-env.fly.dev.
+created: 20220620025944292
+modified: 20220620030456271
+tags: 
+title: 20220620025944290-1
+type: text/vnd.tiddlywiki
+
+  -p 443:8080/tcp:tls \

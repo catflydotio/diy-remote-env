@@ -1,9 +1,0 @@
-annot: Gets the tired proxy code from its public docker image
-created: 20220617224820503
-modified: 20220619021301483
-omniparent: Dockerfile
-tags: [[$:/state/can/omni/editstate/20220617222940845-DIY code-server Dockerfile]]
-title: 20220617221717986-2-2-2-2-2-2-2-1
-type: text/vnd.tiddlywiki
-
-COPY --from=lubien/tired-proxy:2 /tired-proxy /tired-proxy

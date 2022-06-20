@@ -1,0 +1,16 @@
+annot-lang: bash
+caption: Building the image
+created: 20220619181840148
+modified: 20220620140956435
+omni-list: 20220619182914579-1 20220619182914579-2
+omnibus-mode: annot
+savetitle: 20220619182133669
+tags: 
+title: Building the image
+type: text/vnd.tiddlywiki
+
+(next: [[Running the machine]])
+
+I need an OCI image to boot my VM. If I were running Linux on my work computer, I could build locally and push it to the Fly.io repository. I happen to be using a Mac, so I want Fly to build it for me.
+
+I can do this by launching a regular Fly app, then using fly deploy to build it remotely and push it to the Fly.io image repository, but _not actually deploy_ it on any VMs.

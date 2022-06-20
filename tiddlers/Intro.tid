@@ -1,0 +1,10 @@
+caption: Intro
+created: 20220620141606777
+modified: 20220620142555261
+tags: 
+title: Intro
+type: text/vnd.tiddlywiki
+
+What would I like from a remote development environment? The ability to build and test on the same architecture I'm deploying to. Maybe more cores or more RAM than my local machine has. May as well be able to deploy from there. In a pinch, what about quickly fixing something from a mobile device when I'm away from my computer?
+
+From here on, I'm going to dispense with questions like "why?" I'm assuming I want to set up something that fits the description of "remote development environment," on Fly.io, using Fly Machines.

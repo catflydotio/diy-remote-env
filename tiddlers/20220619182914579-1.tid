@@ -1,0 +1,9 @@
+annot: Do this from some directory that doesn't already have a `fly.toml` because it's going to generate one. `fly launch` will prompt for an app name. I'm calling my building app `build-diy-cs`. Don't set up a Postgres database or deploy.
+created: 20220619182914581
+modified: 20220619183449156
+tags: 
+title: 20220619182914579-1
+type: text/vnd.tiddlywiki
+
+$ fly launch 
+

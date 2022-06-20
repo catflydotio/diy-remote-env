@@ -1,0 +1,18 @@
+annot-lang: bash
+caption: Setting up the Fly Machines App
+created: 20220619172152846
+modified: 20220620143039801
+omni-list: 20220619172635771-1 20220619173147765 20220619173954943
+omnibus-mode: annot
+savetitle: 20220619174800089
+tags: 
+title: Setting up the Fly Machines App
+type: text/vnd.tiddlywiki
+
+(next: [[Secrets]])
+
+"Fly Machines App?" Let's back up just a bit. 
+
+We're starting to talk about "Fly Machines" and "Fly Apps" as separate things. Ultimately, they're both processes running in Firecracker VMs; the conceptual distinction is mainly that Fly Machines are VMs we can create, destroy, start, and stop directly through a REST API, and Fly Apps are orchestrated (currently by Nomad); good for the regular kind of app you put up and keep up.
+
+But Fly Machines need to belong to an App  for configuration and record-keeping. A Machines App. A Machines App doesn't execute code.

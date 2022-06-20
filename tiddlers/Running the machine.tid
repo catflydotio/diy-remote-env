@@ -1,0 +1,107 @@
+annot-lang: bash
+caption: Running the machine!
+created: 20220619183903032
+modified: 20220620140927923
+omni-list: 20220619183921562 20220619184140643-1 20220620023514374-1 20220620023650459-1 20220620023722742-1 20220620025939859-1 20220620025939859-2 20220620025944290-1 20220620025944290-2 20220620025950006-1 20220620025950006-2 20220620025955759-1 20220620025955759-2 20220620025955759-3 20220620025950006-3 20220620025944290-3 20220620025939859-3 20220620023722742-2 20220620023722742-3 20220620023650459-2 20220620023650459-3 20220620023514374-2 20220620023514374-3 20220619184140643-2 20220619184140643-3
+omnibus-mode: annot
+savetitle: 20220619183921562
+tags: 
+title: Running the machine
+type: text/vnd.tiddlywiki
+
+Well, I made a couple of changes to my Dockerfile since the last time this all worked, so I'm not sure if I have a bug or Machines are acting up. Confirm Dockerfile good then come back to this.
+
+```
+$ fly logs -a my-remote-env
+
+Waiting for logs...
+
+2022-06-19T18:42:26.227 runner[e148e452a1e892] yyz [info] Pulling container image
+
+2022-06-19T18:42:28.079 runner[e148e452a1e892] yyz [info] Unpacking image
+
+2022-06-19T18:42:30.077 runner[e148e452a1e892] yyz [info] Setting up volume 'storage'
+
+2022-06-19T18:42:30.079 runner[e148e452a1e892] yyz [info] Uninitialized volume 'storage', initializing...
+
+2022-06-19T18:42:30.079 runner[e148e452a1e892] yyz [info] Encrypting volume
+
+2022-06-19T18:42:36.470 runner[e148e452a1e892] yyz [info] Opening encrypted volume
+
+2022-06-19T18:42:38.348 runner[e148e452a1e892] yyz [info] Formatting volume
+
+2022-06-19T18:42:40.373 runner[e148e452a1e892] yyz [info] Configuring firecracker
+
+2022-06-19T18:43:16.684 app[e148e452a1e892] yyz [warn] Virtual machine exited abruptly
+
+2022-06-19T18:48:16.713 app[e148e452a1e892] yyz [warn] Virtual machine exited abruptly
+
+2022-06-19T18:49:15.909 proxy[e148e452a1e892] yyz [error] Error 1001: Canceled request / connection
+
+2022-06-19T18:49:18.683 proxy[e148e452a1e892] yyz [error] Error 1001: Canceled request / connection
+```
+
+and in the terminal:
+
+```
+[~/Projects/CodeServerScratch/WholeDeployThree]$ fly machine run registry.fly.io/build-diy-cs:diy-cs \
+  -p 443:8080/tcp:tls \
+  -p 4000:4000/tcp:tls \
+  --memory 1024 \
+  --region yyz \
+  --volume storage:/volume \
+  --env FLY_REMOTE_BUILDER_HOST_WG=1 \
+  --env IDLE_TIME_TO_SHUTDOWN=600 \
+  -a my-remote-env
+Searching for image 'registry.fly.io/build-diy-cs:diy-cs' locally...
+Searching for image 'registry.fly.io/build-diy-cs:diy-cs' remotely...
+image found: img_lrjxpgkzo98v7n6q
+Image: registry.fly.io/build-diy-cs:diy-cs
+Image size: 126 MB
+Machine is launching...
+Success! A machine has been successfully launched, waiting for it to be started
+ Machine ID: e148e452a1e892
+ Instance ID: 01G5YMBXRDD3VTYMVGHW95J52V
+ State: starting
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+Waiting on firecracker VM...
+```
+Trying to stop it: 
+
+```
+1 machines have been retrieved.
+View them in the UI here (​https://fly.io/apps/my-remote-env/machines/)
+
+my-remote-env
+ID              IMAGE                   CREATED                 STATE         REGION   NAME            IP ADDRESS                       
+e148e452a1e892  build-diy-cs:diy-cs     2022-06-19T18:42:26Z    starting      yyz      floral-sun-5000 fdaa:0:3b99:a7b:88dc:a719:8fe3:2
+
+[~/Projects/CodeServerScratch]$ fly m stop e148e452a1e892 -a my-remote-env
+DEBUG Loaded flyctl config from/Users/chris/.fly/config.yml
+DEBUG determined hostname: "chriss-MacBook-Pro.local"
+DEBUG determined working directory: "/Users/chris/Projects/CodeServerScratch"
+DEBUG determined user home directory: "/Users/chris"
+DEBUG determined config directory: "/Users/chris/.fly"
+DEBUG ensured config directory exists.
+DEBUG ensured config directory perms.
+DEBUG cache loaded.
+DEBUG config initialized.
+DEBUG initialized task manager.
+DEBUG skipped querying for new release
+DEBUG client initialized.
+DEBUG no app config found at /Users/chris/Projects/CodeServerScratch/fly.toml; skipped.
+DEBUG --> POST https://api.fly.io/graphql {{"query":"query ($appName: String!) { appcompact:app(name: $appName) { id name hostname deployed status version appUrl platformVersion organization { slug } services { description protocol internalPort ports { port handlers } } ipAddresses { nodes { id address type createdAt } } } }","variables":{"appName":"my-remote-env"}}
+}
+DEBUG error reading response body:unexpected EOF
+DEBUG <-- 200 https://api.fly.io/graphql (1m0.32s) 
+Error decoding response: EOF
+```
+
+Next time I looked at it, the machine appeared to be stopped, though. (Had to kill the terminal with all the Waitings in it.)

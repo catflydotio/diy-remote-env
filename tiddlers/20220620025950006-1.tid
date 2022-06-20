@@ -1,0 +1,8 @@
+annot: Planning ahead! This exposes port 4000 on the VM so that if I run a dev server for my project on it, I can see it from my local machine's browser!
+created: 20220620025950007
+modified: 20220620030255245
+tags: 
+title: 20220620025950006-1
+type: text/vnd.tiddlywiki
+
+  -p 4000:4000/tcp:tls \

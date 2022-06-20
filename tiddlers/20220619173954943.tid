@@ -1,0 +1,7 @@
+annot: The anycast IP that'll let me access my VM is also associated with the app. The IP for a standard (non-Machines) Fly.io App gets allocated during the deploy process, but we're not running `fly deploy` on this app, so we need to [request this manually](https://fly.io/docs/flyctl/ips-allocate-v4/).
+created: 20220619173954943
+modified: 20220619174541522
+title: 20220619173954943
+type: text/vnd.tiddlywiki
+
+$ fly ips allocate-v4 -a my-remote-env

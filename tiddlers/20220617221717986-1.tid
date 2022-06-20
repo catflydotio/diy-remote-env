@@ -1,9 +1,0 @@
-annot: Choose a base image that has most of what you'd want to use already installed. I choose a smallish image that should have tools for Node.js development.
-created: 20220617221805165
-modified: 20220619021135618
-omniparent: 20220619021123233
-tags: [[$:/state/can/omni/editstate/20220617221717986-DIY code-server Dockerfile]]
-title: 20220617221717986-1
-type: text/vnd.tiddlywiki
-
-FROM node:17.9.1-bullseye-slim

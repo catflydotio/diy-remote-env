@@ -1,11 +1,12 @@
 caption: Outline
 created: 20220618144706861
 creator: chris
-modified: 20220619021005878
+list: Intro [[Connecting to a remote machine]] [[The base dev environment]] [[Leftover thoughts on persistent storage]] 20220618145110826 [[Turning it off and on again]] 20220618145130053 Secrets
+modified: 20220620145012616
 modifier: chris
-omni-list: Intro [[Connecting to a remote machine]] [[The base dev environment]] [[Persistent storage]] 20220618145110826 20220618145130053 Secrets
-omnibus-mode: kbnav
-savetitle: 20220618145437375
+omni-list: Intro [[Connecting to a remote machine]] [[The base dev environment]] [[Leftover thoughts on persistent storage]] 20220618145110826 [[Turning it off and on again]] 20220618145130053 Secrets
+omnibus-mode: toc
+savetitle: 20220619031815938
 tags: 
 title: Outline
 type: text/vnd.tiddlywiki

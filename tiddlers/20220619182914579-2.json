@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220619182914582",
+        "modified": "20220619183720221",
+        "title": "20220619182914579-2",
+        "text": "\n\n$ fly deploy --build-only --remote-only --push --image-label \"diy-cs\"",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "The tail end of the output from this was \n\n```\n--> Pushing image done\nimage: registry.fly.io/build-diy-cs:diy-cs\nimage size: 352 MB\n```\n\nWhen I go to deploy my machine, I'll get the image from there."
+    }
+]

@@ -1,9 +1,0 @@
-annot: Used by the tired proxy to shut down the machine after some period of inactivity. Commented out because maybe we want to set this when we run, not when we build. This is in seconds.
-created: 20220617222553048
-modified: 20220619021156651
-omniparent: Dockerfile
-tags: [[$:/state/can/omni/editstate/20220617222453647-DIY code-server Dockerfile]]
-title: 20220617221717986-2-2-2-2-1
-type: text/vnd.tiddlywiki
-
-#ENV IDLE_TIME_TO_SHUTDOWN=120

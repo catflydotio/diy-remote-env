@@ -1,0 +1,8 @@
+annot: We're going to mount the persistent volume (that we called "storage") at the mount point `/volume` when we run the machine. Make the `/volume/project` directory if it doesn't exist. This is where we can keep working files that we want to persist between machine runs.
+created: 20220620020245279
+modified: 20220620020639444
+tags: 
+title: 20220620020245277-1
+type: text/vnd.tiddlywiki
+
+mkdir -p /volume/project

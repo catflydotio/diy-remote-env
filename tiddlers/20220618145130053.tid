@@ -1,8 +1,10 @@
 caption: Deployment platform
 created: 20220618145130053
-modified: 20220618152032719
+modified: 20220619032724264
 omniparent: Outline
 title: 20220618145130053
 type: text/vnd.tiddlywiki
 
-Deployment platform
+Deployment platform for the project
+
+Store credentials somewhere, need whatever deployment tools (e.g. flyctl) (or can deploy with e.g. GitHub Actions
