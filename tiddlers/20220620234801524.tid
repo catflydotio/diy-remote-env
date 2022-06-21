@@ -1,0 +1,9 @@
+annot: Start...oh.
+created: 20220620234801524
+modified: 20220620235423255
+title: 20220620234801524
+type: text/vnd.tiddlywiki
+
+[~/Projects/CodeServerScratch/WholeDeployThree]$ fly m start 0e286067a65867 -a my-remote-env
+Machine is starting...
+Error could not start machine 0e286067a65867: context deadline exceeded

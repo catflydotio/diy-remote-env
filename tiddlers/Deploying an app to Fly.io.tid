@@ -1,0 +1,14 @@
+annot-lang: 
+caption: Deploying an app to Fly.io
+created: 20220620224108822
+modified: 20220620230633800
+omni-list: 20220620224646570 20220620224518753 20220620225639552-1 20220620225639552-2 20220620225802853-1 20220620225806236-1 20220620225806236-2 20220620225806236-3 20220620225802853-2 20220620225934419-1 20220620225934419-2 20220620230015221-1 20220620230015221-2 20220620230015221-3 20220620225934419-3 20220620225802853-3 20220620225639552-3
+omnibus-mode: annot
+savetitle: 20220620224646570
+tags: 
+title: Deploying an app to Fly.io
+type: text/vnd.tiddlywiki
+
+(next: [[Well that part was easy!]])
+
+I have confirmed that my app works on my development machine! Now I want to deploy it to Fly.io. I'll just keep following the tutorial as if I were running it on my laptop.

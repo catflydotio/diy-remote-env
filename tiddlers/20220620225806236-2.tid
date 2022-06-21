@@ -1,0 +1,8 @@
+annot: `fly.toml` can now be seen in the project/hellonode-builtin folder in the code-server file browser.
+created: 20220620225806238
+modified: 20220620225911216
+tags: 
+title: 20220620225806236-2
+type: text/vnd.tiddlywiki
+
+Wrote config file fly.toml 

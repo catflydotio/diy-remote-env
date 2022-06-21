@@ -1,10 +1,9 @@
 annot: Not strictly necessary to use bash, but.
 created: 20220619180456709
-modified: 20220620143351638
+modified: 20220620201718097
 tags: 
 title: 20220619180456708-1
 type: text/vnd.tiddlywiki
 
 # Use bash shell
-
 ENV SHELL=/bin/bash

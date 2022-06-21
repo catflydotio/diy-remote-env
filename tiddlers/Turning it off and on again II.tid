@@ -1,0 +1,23 @@
+caption: Turning it off and on again II
+created: 20220619031815938
+modified: 20220620235554522
+omni-list: 
+omnibus-mode: kbnav
+savetitle: 20220620233805916
+title: Turning it off and on again II
+type: text/vnd.tiddlywiki
+
+(next: [[Leftover thoughts on persistent storage]])
+
+''This part is rich with possibility for discussing how best to time out the VM, how best to start it up, how to shut it down from within''
+
+If I'm doing all this to have access to moar cores and massive RAM, I don't want to be renting that hardware 24/7.
+
+Can we make it easier to get in and out? 
+
+	*	way to turn it off deliberately; timeout in case you forget.
+	*	can logout of code-server; can stop the VM from the outside. Better to have a way to exit from the inside (which tired-proxy does now, but. Only after the timeout).
+	*	can we also shut down when the user logs out of code-server?
+	* if we want to wake it in response to a request, we need a VM awake listening for requests 24/7. Unless and until fly-proxy gets new features like this. If we have another app supervising the machine, it can use the Machines API...
+	
+Is it possible for outside scanners or something to prevent the proxy from timing out? (I think Chrome does it about once a minute as long as I have the tab open, even if I don't go to that tab.)

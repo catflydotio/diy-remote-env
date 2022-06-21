@@ -1,0 +1,7 @@
+annot: Make sure the entrypoint shell script is executable.
+created: 20220620205159888
+modified: 20220620205238827
+title: 20220620205159888
+type: text/vnd.tiddlywiki
+
+RUN chmod +x /entrypoint.sh

@@ -1,0 +1,8 @@
+annot: Starting the app on the remote VM.
+created: 20220620221118424
+modified: 20220620223133073
+title: 20220620221118424
+type: text/vnd.tiddlywiki
+
+root@0e286067a65867:/volume/project/hellonode-builtin# node server.js
+HelloNode app listening on port 3000!

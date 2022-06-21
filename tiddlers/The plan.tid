@@ -1,3 +1,12 @@
+caption: The plan
+created: 20220619155250152
+modified: 20220620232809897
+tags: 
+title: The plan
+type: text/vnd.tiddlywiki
+
+(next: [[Setting up the Fly Machines App]])
+
 I'm going to set up a remote development environment running code-server as a web app on Fly.io.
 
 My Docker image will hold a clean-slate (but mostly-configured) development environment. A persistent disk will keep my working files, and any changes I make to the environment on-the-fly.
@@ -6,4 +15,4 @@ I'm going to use the new Fly Machines feature to run my VM. For individual use, 
 
 I can manually start and stop my machine using flyctl, but I'm going run the code-server process behind a small proxy that shuts down if it doesn't get any http requests for some time.
 
-A note: I'm using the flyctl a lot here. It's more of a secret than it should be, but flyctl uses `fly` as an alias for `flyctl`. So if I type `fly secrets` and the docs are for `flyctl secrets`, that's all that is.
+A note: I'm using flyctl, the Fly.io CLI tool, a lot here. This is more of a secret than it should be, but flyctl uses `fly` as an alias for `flyctl`. So if I type `fly secrets` and the docs are for `flyctl secrets`, that's all that is.

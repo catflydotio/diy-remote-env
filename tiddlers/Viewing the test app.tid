@@ -1,0 +1,16 @@
+caption: Viewing our test app
+created: 20220620222009627
+modified: 20220620232154375
+tags: 
+title: Viewing the test app
+type: text/vnd.tiddlywiki
+
+(next: [[Deploying an app to Fly.io]])
+
+I can now visit https://my-remote-env.fly.dev:3000/ to see the Hello world message!! 
+
+My remote machine is running a node server on top of code-server and tired-proxy.
+
+Now one thing to be cautious of here is that in this setup, this test app is actually served to the Internet. That could be a downside of just using Fly's https and code-server's password to protect our machine. 
+
+I could run this exactly the same, not open port 3000 in the machine config, and use WireGuard or `fly proxy` to reach it. It's a judgement call in that case whether I should have used SSH or WireGuard in the first place.

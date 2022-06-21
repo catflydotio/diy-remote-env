@@ -1,0 +1,12 @@
+caption: Turning it off and on again I
+created: 20220620234040992
+modified: 20220620235634404
+omni-list: 20220620234509316 20220620234712419 20220620234801524
+omnibus-mode: annot
+savetitle: 20220620234509316
+title: Turning it off and on again I
+type: text/vnd.tiddlywiki
+
+(next: [[Turning it off and on again II]])
+
+If it gets no requests for $IDLE_TIME_TO_SHUTDOWN seconds, the Tired Proxy exits, and on Fly.io, that means the VM stops. That's great, but what if I want to stop it? There's no affordance in my VM for that, as it stands. So I'll make sure the VM isn't in the middle of something, then go back to my laptop and use flyctl. 

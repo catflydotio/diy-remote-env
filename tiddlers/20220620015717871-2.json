@@ -1,9 +1,9 @@
 [
     {
         "created": "20220620015717873",
-        "modified": "20220620022745664",
+        "modified": "20220620205519129",
         "title": "20220620015717871-2",
-        "text": "\ncode-server --user-data-dir /volume/.vscode --bind-addr 0.0.0.0:9090 /volume/project &\n/tired-proxy --port 8080 --host http://localhost:9090 --time $TIME_TO_SHUTDOWN\n",
+        "text": "code-server --user-data-dir /volume/.vscode --bind-addr 0.0.0.0:9090 /volume/project &\n/tired-proxy --port 8080 --host http://localhost:9090 --time $TIME_TO_SHUTDOWN\n",
         "tags": "",
         "type": "text/vnd.tiddlywiki",
         "annot": "Run code-server in the background. Use the `--user-data-dir` flag to tell it to use a config dir on the mounted volume. `--bind-addr` gets it listening on port 9090. The `/volume/project` argument tells code-server to open that folder when it starts.\n\nWe run tired-proxy in the foreground, forwarding the internal port 9090 to the machine's port 8080. This is still an internal port as far as the VM on Fly.io is concerned. The proxy will exit after $TIME_TO_SHUTDOWN seconds without an http request."

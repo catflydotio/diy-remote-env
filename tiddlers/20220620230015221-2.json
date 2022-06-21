@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220620230015223",
+        "modified": "20220620231843198",
+        "title": "20220620230015221-2",
+        "text": "Services\nTCP 80/443 ⇢ 8080\n...",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "It's telling me that it's mapping external ports 80 (http) and 443 (https) to internal port 8080, where the deployed Node.js app is listening.\n\n(It's listening on 8080 because `fly launch` sets a PORT environment variable in `fly.toml`, which the hellonode-builtin app uses to decide on a port.)"
+    }
+]

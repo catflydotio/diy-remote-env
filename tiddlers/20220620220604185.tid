@@ -1,0 +1,7 @@
+annot: Initializing the project like it says in the guide. Maybe I should have set up some Node.js version/environment management in my Docker image!
+created: 20220620220604185
+modified: 20220620223303733
+title: 20220620220604185
+type: text/vnd.tiddlywiki
+
+root@0e286067a65867:/volume/project/hellonode-builtin# npm init

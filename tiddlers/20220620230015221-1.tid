@@ -1,0 +1,11 @@
+annot: Yep, deploy now. I don't need to do any more config on this app.
+created: 20220620230015222
+modified: 20220620230015222
+tags: 
+title: 20220620230015221-1
+type: text/vnd.tiddlywiki
+
+? Would you like to deploy now? Yes
+Deploying remote-hellonode
+==> Validating app configuration
+--> Validating app configuration done

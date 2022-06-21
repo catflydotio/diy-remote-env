@@ -1,8 +1,8 @@
 annot: Mount the volume `storage`, associated with this machine's app, at `/volume` within the VM.
 created: 20220620023722744
-modified: 20220620025924481
+modified: 20220620205846665
 tags: 
 title: 20220620023722742-2
 type: text/vnd.tiddlywiki
 
-  --volume storage:/volume \
+--volume storage:/volume \

@@ -1,3 +1,12 @@
+caption: The base dev environment
+created: 20220618144741063
+modified: 20220620232419120
+omnibus-mode: toc
+title: The base dev environment
+type: text/vnd.tiddlywiki
+
+(next: [[The plan]])
+
 However we set it up, we'll want to stash a copy of our clean configured environment somewhere for safe keeping and easy restores, in case we manage to get mired in dependency hell, or our SSD goes fizzle, or something. 
 
 This could be a disk image or an OS restore point; a Docker image or (what? nix?)

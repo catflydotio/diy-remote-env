@@ -1,9 +1,9 @@
 [
     {
         "created": "20220620023650462",
-        "modified": "20220620030630589",
+        "modified": "20220620205843188",
         "title": "20220620023650459-2",
-        "text": "  --env FLY_REMOTE_BUILDER_HOST_WG=1 \\ ",
+        "text": "--env FLY_REMOTE_BUILDER_HOST_WG=1 \\ ",
         "tags": "",
         "type": "text/vnd.tiddlywiki",
         "annot": "This machine is already on Fly.io's WireGuard private network; it doesn't need to create a userland WireGuard tunnel in order to connect to other VMs in your organization. This environment variable tells it to just use a native WireGuard tunnel.\n\n...this can be faster than using the agent?"

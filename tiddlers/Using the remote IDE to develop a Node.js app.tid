@@ -1,0 +1,18 @@
+annot-lang: bash
+caption: Using the remote IDE to "develop" a Node.js app
+created: 20220620210430218
+modified: 20220620223342286
+omni-list: 20220620215305545 20220620215251942 20220620220503858 20220620220604185 20220620220811915 20220620221118424
+omnibus-mode: annot
+savetitle: 20220620221118424
+tags: 
+title: Using the remote IDE to develop a Node.js app
+type: text/vnd.tiddlywiki
+
+(next: [[Viewing the test app]])
+
+Once my machine boots up, I can visit it at https://https://my-remote-env.fly.dev/, and enter my password at the prompt. I have VS Code in my browser!
+
+I'm going to try following the Fly.io [Quickstart Guide for deploying a Node.js app](https://fly.io/docs/getting-started/node/).
+
+The first thing to do is clone a repository and test-run an app.  I open a terminal with the <code>^&#96;</code> shortcut.

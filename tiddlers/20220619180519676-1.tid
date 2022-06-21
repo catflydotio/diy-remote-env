@@ -1,10 +1,9 @@
 annot: Installs flyctl, and in `.bashrc`: adds it to the PATH, and sets the `FLYCTL_INSTALL` environment variable to indicate where the Fly config is.
 created: 20220619180519678
-modified: 20220620143417711
+modified: 20220620205559398
 tags: 
 title: 20220619180519676-1
 type: text/vnd.tiddlywiki
-
 
 RUN curl -L https://fly.io/install.sh | sh \
     && echo 'export FLYCTL_INSTALL="/root/.fly"' >> ~/.bashrc \

@@ -1,0 +1,14 @@
+annot: Clone a demo Hello World Node/Express app.
+created: 20220620215251942
+modified: 20220620222743517
+title: 20220620215251942
+type: text/vnd.tiddlywiki
+
+root@0e286067a65867:/volume/project# git clone https://github.com/fly-apps/hellonode-builtin.git
+Cloning into 'hellonode-builtin'...
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 31 (delta 11), reused 25 (delta 5), pack-reused 0
+Receiving objects: 100% (31/31), 8.46 KiB | 8.46 MiB/s, done.
+Resolving deltas: 100% (11/11), done.

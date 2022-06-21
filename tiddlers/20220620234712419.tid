@@ -1,0 +1,8 @@
+annot: Stop the machine.
+created: 20220620234712419
+modified: 20220620235401989
+title: 20220620234712419
+type: text/vnd.tiddlywiki
+
+[~/Projects/CodeServerScratch/WholeDeployThree]$ fly m stop 0e286067a65867 -a my-remote-env
+0e286067a65867 has been successfully stopped

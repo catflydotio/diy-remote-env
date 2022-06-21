@@ -1,0 +1,12 @@
+caption: Well, that part was easy!
+created: 20220620225537322
+modified: 20220620234018040
+title: Well that part was easy!
+type: text/vnd.tiddlywiki
+
+(next: [[Turning it off and on again I]])
+
+Now I can visit my Node.js app, that I deployed from my remote development environment, at https://remote-hellonode.fly.dev/. Sounds like time to call it a day!
+
+...now what?
+

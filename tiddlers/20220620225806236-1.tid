@@ -1,0 +1,11 @@
+annot: I'm naming the app `remote-hellonode` and deploying it to the `ord` region (I can deploy this one anywhere, because it has no persistent storage volumes associated with it).
+created: 20220620225806237
+modified: 20220620225806237
+tags: 
+title: 20220620225806236-1
+type: text/vnd.tiddlywiki
+
+? App Name (leave blank to use an auto-generated name): remote-hellonode
+Automatically selected personal organization: Chris Nicoll
+? Select region: ord (Chicago, Illinois (US))
+Created app remote-hellonode in organization personal

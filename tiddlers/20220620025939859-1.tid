@@ -1,8 +1,8 @@
 annot: Run the image `registry.fly.io/build-diy-cs:diy-cs` in a new Fly Machines VM
 created: 20220620025939862
-modified: 20220620030609682
+modified: 20220620205759506
 tags: 
 title: 20220620025939859-1
 type: text/vnd.tiddlywiki
 
-fly machine run registry.fly.io/build-diy-cs:diy-cs \
+$ fly machine run registry.fly.io/build-diy-cs:diy-cs \

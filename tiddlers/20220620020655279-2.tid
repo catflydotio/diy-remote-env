@@ -1,9 +1,9 @@
+annot: For testing that my Docker image works, I'm blowing away the persistent volume's contents on every new run. When I have a known-good image, I can build it once more without this line so my files will persist when I actually use the dev environment.
 created: 20220620020655282
-modified: 20220620020655282
+modified: 20220620205711546
 tags: 
 title: 20220620020655279-2
 type: text/vnd.tiddlywiki
-
 
 # Don't do this in production
 # rm -rf /volume/*

@@ -1,8 +1,8 @@
 annot: Give the VM 1024MB of RAM
 created: 20220620025955761
-modified: 20220620030032916
+modified: 20220620205853147
 tags: 
 title: 20220620025955759-1
 type: text/vnd.tiddlywiki
 
-  --memory 1024 \
+--memory 1024 \

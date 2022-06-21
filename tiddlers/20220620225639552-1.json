@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220620225639553",
+        "modified": "20220620231640912",
+        "title": "20220620225639552-1",
+        "text": "root@0e286067a65867:/volume/project/hellonode-builtin# fly launch\nCreating app in /volume/project/hellonode-builtin\nScanning source code\nDetected a NodeJS app\nUsing the following build configuration:\n        Builder: heroku/buildpacks:20\n",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "I can run `fly launch`, because I installed flyctl in my Docker image, and passed my Fly.io token into the VM using `fly secrets`.\n\nIn this case, `fly launch` is detecting the Node.js source code and configuring it to be  deployed on Fly.io, using a buildpack to build the image. Perhaps I should have chosen a demo app that uses a cleaner Dockerfile-based launcher!"
+    }
+]
