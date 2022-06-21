@@ -1,6 +1,6 @@
 caption: The plan
 created: 20220619155250152
-modified: 20220620232809897
+modified: 20220621014259872
 tags: 
 title: The plan
 type: text/vnd.tiddlywiki
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 I'm going to set up a remote development environment running code-server as a web app on Fly.io.
 
 My Docker image will hold a clean-slate (but mostly-configured) development environment. A persistent disk will keep my working files, and any changes I make to the environment on-the-fly.
+
+''Is there a difference in root fs persistence between machines V1 and V2? Are we on V2?'' 
 
 I'm going to use the new Fly Machines feature to run my VM. For individual use, I don't need load-balancing, or lots of instances, or always-on. I need one VM, close by for latency, and for cost-effectiveness, I want to shut it down when I'm not using it (because I don't get charged for CPU or RAM if my Fly Machine is stopped).
 

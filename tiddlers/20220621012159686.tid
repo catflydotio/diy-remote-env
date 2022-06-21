@@ -1,0 +1,5 @@
+annot: If I try starting a machine with an image that doesn't work (e.g. my entrypoint shell script isn't executable), flyctl repeats its "Waiting" message until I kill the terminal
+created: 20220621012159686
+modified: 20220621012349833
+title: 20220621012159686
+type: text/vnd.tiddlywiki

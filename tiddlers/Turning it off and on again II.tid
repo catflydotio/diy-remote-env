@@ -1,13 +1,13 @@
 caption: Turning it off and on again II
 created: 20220619031815938
-modified: 20220620235554522
+modified: 20220621012505096
 omni-list: 
 omnibus-mode: kbnav
 savetitle: 20220620233805916
 title: Turning it off and on again II
 type: text/vnd.tiddlywiki
 
-(next: [[Leftover thoughts on persistent storage]])
+(next: [[Issues]])
 
 ''This part is rich with possibility for discussing how best to time out the VM, how best to start it up, how to shut it down from within''
 

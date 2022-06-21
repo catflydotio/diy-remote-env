@@ -1,0 +1,9 @@
+annot: Once again, stop the VM.
+created: 20220621003713485
+modified: 20220621004307519
+tags: 
+title: 20220621003713484-1
+type: text/vnd.tiddlywiki
+
+[~/Projects/CodeServerScratch/WholeDeployThree]$ fly m stop 0e286067a65867 -a my-remote-env
+0e286067a65867 has been successfully stopped

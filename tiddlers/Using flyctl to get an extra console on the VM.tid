@@ -1,0 +1,13 @@
+caption: Using flyctl to get an extra console on the VM
+created: 20220621013815868
+modified: 20220621015539444
+omni-list: 20220621014854082 20220621015202732 20220621015030478-1 20220621015030478-2 20220621015030478-3
+omnibus-mode: annot
+savetitle: 20220621015202732
+tags: 
+title: Using flyctl to get an extra console on the VM
+type: text/vnd.tiddlywiki
+
+(next: [[Turning it off and on again I]])
+
+Just as with "normal" Fly apps, machines all have a shell available. It's not a full ssh server, but it's a standalone terminal window with access to the VM's filesystem, in case I want that.

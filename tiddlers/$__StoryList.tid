@@ -1,5 +1,5 @@
 created: 20220619164407299
-list: Intro [[Connecting to a remote machine]] [[The base dev environment]] [[The plan]] [[Setting up the Fly Machines App]] Secrets [[The Dockerfile]] [[The entrypoint script]] [[Building the image]] [[Running the machine]] [[Using the remote IDE to develop a Node.js app]] [[Viewing the test app]] [[Deploying an app to Fly.io]] [[Well that part was easy!]] [[Turning it off and on again I]] [[Turning it off and on again II]] [[Leftover thoughts on persistent storage]] [[Can I optimize my Docker image?]]
-modified: 20220620234020414
+list: Intro [[Connecting to a remote machine]] [[The base dev environment]] [[The plan]] [[Setting up the Fly Machines App]] Secrets [[The Dockerfile]] [[The entrypoint script]] [[Building the image]] [[Running the machine]] [[Using the remote IDE to develop a Node.js app]] [[Viewing the test app]] [[Deploying an app to Fly.io]] [[Well that part was easy!]] [[Breaking out of that single browser tab]] [[Replacing-the-machine interlude]] [[Using flyctl to access the dev Node.js server]] [[Using flyctl to get an extra console on the VM]] [[Turning it off and on again I]] [[Turning it off and on again II]] Issues [[Leftover thoughts on persistent storage]] [[Can I optimize my Docker image?]]
+modified: 20220621014429697
 title: $:/StoryList
 type: text/vnd.tiddlywiki

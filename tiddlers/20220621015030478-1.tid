@@ -1,0 +1,8 @@
+annot: Ask for a console on the machine's app.
+created: 20220621015030479
+modified: 20220621015116898
+tags: 
+title: 20220621015030478-1
+type: text/vnd.tiddlywiki
+
+$ fly ssh console -a my-remote-env

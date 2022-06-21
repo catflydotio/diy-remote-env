@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220621001137876",
+        "modified": "20220621002149242",
+        "title": "20220621001137874-1",
+        "text": "[~/Projects/CodeServerScratch/WholeDeployThree]$ fly m status 0e286067a65867 -a my-remote-env\nSuccess! A machine has been retrieved\n Machine ID: 0e286067a65867\n Instance ID: 01G61HCZFEPHX53HP5KV4PD3T0\n State: stopped\n\nEvent Logs\nMACHINE STATUS  EVENT TYPE      SOURCE  TIMESTAMP                     \nstopped         exit            flyd    2022-06-20T20:09:09.06-04:00 \nstarted         start           flyd    2022-06-20T19:59:00.982-04:00\nstarted         start           flyd    2022-06-20T19:58:59.762-04:00\nstarting        start           user    2022-06-20T19:58:52.837-04:00\nstopped         exit            flyd    2022-06-20T19:57:55.054-04:00\nstarting        start           user    2022-06-20T19:53:52.831-04:00\n",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "I waited some time, then checked its status again. According to the timestamp on my tiddler (note), I tried starting it around 7:54PM. The event logs...show a bunch of things happening after that.\n\n(Why don't I have the time in my shell prompt?! Must fix that.)"
+    }
+]

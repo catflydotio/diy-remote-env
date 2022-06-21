@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220621015030480",
+        "modified": "20220621015321879",
+        "title": "20220621015030478-2",
+        "text": "WARN app flag 'my-remote-env' does not match app name in config file 'build-diy-cs'\n? Continue using 'my-remote-env' Yes\nConnecting to top1.nearest.of.my-remote-env.internal... complete\n# ",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "I'm still in the directory where I made that \"app\" that only builds my machine's image, so I get a warning.\n\nThat `#` is the terminal prompt in my VM!"
+    }
+]

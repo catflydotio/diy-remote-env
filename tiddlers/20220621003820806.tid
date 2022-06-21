@@ -1,0 +1,22 @@
+annot: This is the same config I used before, but missing the `-p 3000:3000/tcp:tls \` line.
+created: 20220621003820806
+modified: 20220621004558894
+title: 20220621003820806
+type: text/vnd.tiddlywiki
+
+[~/Projects/CodeServerScratch/WholeDeployThree]$ fly machine run registry.fly.io/build-diy-cs:diy-cs \                 
+  -p 443:8080/tcp:tls \
+  --memory 1024 \
+  --region yyz \
+  --volume storage:/volume \
+  --env FLY_REMOTE_BUILDER_HOST_WG=1 \
+  --env IDLE_TIME_TO_SHUTDOWN=600 \
+  -a my-remote-env
+...
+Success! A machine has been successfully launched, waiting for it to be started
+ Machine ID: 5918592eb73836
+ Instance ID: 01G61V61DQWVM1TEHGJYSH7CA1
+ State: starting
+Waiting on firecracker VM...
+Machine started, you can connect via the following private ip
+  fdaa:0:3b99:a7b:88dc:a8e4:23a7:2

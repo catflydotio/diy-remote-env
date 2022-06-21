@@ -1,8 +1,11 @@
-annot: Get the machine ID, `0e286067a65867`, with `fly machines list`, which, as you can see, can also be written `fly m list`.
-created: 20220620234509316
-modified: 20220621002815853
-title: 20220620234509316
+created: 20220621012107154
+modified: 20220621012110219
+title: 20220621012107154
 type: text/vnd.tiddlywiki
+
+[~/Projects/CodeServerScratch/WholeDeployThree]$ fly m list -a my-remote-env                
+Error decoding response: EOF
+
 
 [~/Projects/CodeServerScratch/WholeDeployThree]$ fly m list -a my-remote-env
 1 machines have been retrieved.
@@ -10,4 +13,4 @@ View them in the UI here (​https://fly.io/apps/my-remote-env/machines/)
 
 my-remote-env
 ID              IMAGE                   CREATED                 STATE        REGION  NAME                    IP ADDRESS                       
-0e286067a65867  build-diy-cs:diy-cs     2022-06-20T21:48:18Z    started      yyz     morning-resonance-5363  fdaa:0:3b99:a7b:88dc:f38d:6c10:2
+5918592eb73836  build-diy-cs:diy-cs     2022-06-21T00:39:16Z    started      yyz     winter-bird-9869        fdaa:0:3b99:a7b:88dc:a8e4:23a7:2

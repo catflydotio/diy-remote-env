@@ -1,0 +1,14 @@
+caption: Breaking out of that single browser tab
+created: 20220621000305105
+modified: 20220621015415525
+tags: 
+title: Breaking out of that single browser tab
+type: text/vnd.tiddlywiki
+
+(next: [[Replacing-the-machine interlude]])
+
+It's pretty claustrophobic living in a single browser tab. I said earlier that I'm not actually confined to that, even if my VM is running a browser-based IDE. We've already seen that if we know which ports we want open, we can configure our machine to expose them, so that we can use it as a dev server and check out its "locally"-running app in another browser tab.
+
+I also said I'd get back to what I can do so that not everybody can see my app while I'm developing it.
+
+Since I'm deployed on Fly.io, I can use flyctl's user-mode WireGuard features.

@@ -1,0 +1,7 @@
+annot: Use flyctl's user-mode WireGuard tunnel to proxy the VM's port 3000 to my laptop's localhost:3000.
+created: 20220621012750096
+modified: 20220621012918263
+title: 20220621012750096
+type: text/vnd.tiddlywiki
+
+$ fly proxy 3000:3000 -a my-remote-env

@@ -1,0 +1,12 @@
+annot: After that bunch of mysterious things happened, the machine started up fine!
+created: 20220621001137877
+modified: 20220621002217179
+tags: 
+title: 20220621001137874-2
+type: text/vnd.tiddlywiki
+
+
+[~/Projects/CodeServerScratch/WholeDeployThree]$ fly m start 0e286067a65867 -a my-remote-env
+Machine is starting...
+0e286067a65867 has been started
+[~/Projects/CodeServerScratch/WholeDeployThree]$ 

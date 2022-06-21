@@ -1,0 +1,13 @@
+caption: Replacing-the-machine interlude
+created: 20220621003459655
+modified: 20220621015442454
+omni-list: 20220621003657839 20220621003713484-1 20220621003713484-2 20220621003713484-3 20220621003820806
+omnibus-mode: annot
+savetitle: 20220621003820806
+tags: 
+title: Replacing-the-machine interlude
+type: text/vnd.tiddlywiki
+
+(next: [[Using flyctl to access the dev Node.js server]])
+
+I'm going to `run` a new machine without exposing port 3000, and only one machine is allowed to claim any given storage volume, so I have to destroy -- I mean `remove` -- the one I've been using.

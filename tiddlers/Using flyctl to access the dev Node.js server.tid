@@ -1,0 +1,13 @@
+caption: Using flyctl to access the dev Node.js server
+created: 20220621012525835
+modified: 20220621015512393
+omni-list: 20220621013652400 20220621012750096 20220621014636016
+omnibus-mode: annot
+savetitle: 20220621014636016
+tags: 
+title: Using flyctl to access the dev Node.js server
+type: text/vnd.tiddlywiki
+
+(next: [[Using flyctl to get an extra console on the VM]])
+
+I can run server.js in my restarted machine, and test that I actually get "connection refused" if I go to https://my-remote-env.fly.dev:3000/.

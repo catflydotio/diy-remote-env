@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220621003713486",
+        "modified": "20220621004457177",
+        "title": "20220621003713484-2",
+        "text": "[~/Projects/CodeServerScratch/WholeDeployThree]$ fly m remove 0e286067a65867 -a my-remote-env\nmachine 0e286067a65867 was found and is currently in stopped state, attempting to destroy...\n0e286067a65867 has been destroyed\n\n",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "Remove the VM.\n\n(I waited a little bit for good measure before running this.)"
+    }
+]

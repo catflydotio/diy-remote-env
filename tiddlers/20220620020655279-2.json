@@ -1,0 +1,11 @@
+[
+    {
+        "created": "20220620020655282",
+        "modified": "20220621002428042",
+        "title": "20220620020655279-2",
+        "text": "# Don't do this in production\n# rm -rf /volume/*\n",
+        "tags": "",
+        "type": "text/vnd.tiddlywiki",
+        "annot": "For testing that my Docker image works, I'm blowing away the persistent volume's contents on every new run. When I have a known-good image, I can build it once more without this line so my files will persist when I actually use the dev environment.\n\nAside: I've noticed that even if I do this, code-server on a previously-stopped VM remembers the file it had open last and complains that it's gone (browser localstorage?)"
+    }
+]
